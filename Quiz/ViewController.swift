@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var asnwerLabel: UILabel!
     
     let questions: [String] = ["Apa nama Ibu Kota Indonesia ?", "7+7 = ?", "Apakah Surabaya merupakan jawa barat?"]
-    let answers : [String] = ["Jakarta", "14", "benar"]
+    let answers : [String] = ["Jakarta", "14", "salah"]
     var currentQuestionIndex : Int = 0
     
     
